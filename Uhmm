@@ -1,1 +1,20 @@
+getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "HumanoidRootPart",
+        Prediction = 0.143,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = true,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 30,
+        Filled = false,
+        Thickness = 1.5,
+        Transparency = 1,
+        Color = Color3.fromRGB(255, 0, 0),
+    },
+}
+
 loadstring(game:HttpGet("https://rentry.co/vsbyon63/raw", true))()
